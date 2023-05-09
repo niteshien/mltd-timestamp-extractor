@@ -46,7 +46,7 @@ python main.py
 
 ## 支持与问题反馈
 
-如果您在使用过程中遇到问题或有任何疑问，请在项目的 [Issues 页面] 提交新的 issue。这将有助于其他用户在遇到类似问题时查找解决方案。您也可以通过以下联系方式与我取得联系。
+如果您在使用过程中遇到问题或有任何疑问，请在项目的 [Issues 页面](https://github.com/niteshien/mltd-timestamp-extractor/issues) 提交新的 issue。这将有助于其他用户在遇到类似问题时查找解决方案。您也可以通过以下联系方式与我取得联系。
 
 
 ## 联系信息
