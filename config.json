@@ -7,7 +7,9 @@
       "width": "首字宽度",
       "height": "首字高度",
       "x_start": "将首字视为方形区域，区域左上角的坐标",
-      "y_start": "可以用Aegisub打开视频，按下快捷键(A)切换至标准模式，把鼠标移到画面上即可显示坐标。"
+      "y_start": "可以用Aegisub打开视频，按下快捷键(A)切换至标准模式，把鼠标移到画面上即可显示坐标。",
+	  "text_width": "字幕区域宽度",
+      "text_height": "字幕区域高度"
     }
   },
   "MLTD": {
@@ -23,12 +25,12 @@
       "text_height": 110
     },
 	  "1920*1080": {
-      "width": 0,
-      "height": 0,
-      "x_start": 0,
-      "y_start": 0,
-      "text_width": 0,
-      "text_height": 0
+      "width": 42,
+      "height": 42,
+      "x_start": 400,
+      "y_start": 874,
+      "text_width": 1130,
+      "text_height": 110
     }
   },
   "ShinyColors": {
@@ -55,14 +57,6 @@
       "y_start": 804,
       "text_width": 1314,
       "text_height": 204
-    },
-    "1920*1080": {
-      "width": 0,
-      "height": 0,
-      "x_start": 0,
-      "y_start": 0,
-      "text_width": 0,
-      "text_height": 0
     }
   }
 }
