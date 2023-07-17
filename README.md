@@ -5,7 +5,7 @@
 
 ## 预编译版本
 
-对于不需要自行编译的用户,可以直接在Releases页面下载打包好的可执行文件,无需安装任何依赖,即可直接使用。
+对于不需要自行编译的用户,可以直接在[Releases](https://github.com/niteshien/mltd-timestamp-extractor/releases)页面下载打包好的可执行文件,无需安装任何依赖,即可直接使用。
 
 ## 配置参数
 
