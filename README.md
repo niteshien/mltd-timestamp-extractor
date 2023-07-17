@@ -5,15 +5,15 @@
 
 ## 预编译版本
 
-对于不需要自行编译的用户,可以直接在[Releases](https://github.com/niteshien/mltd-timestamp-extractor/releases)页面下载打包好的可执行文件,无需安装任何依赖,即可直接使用。
+对于不需要自行编译的用户,可以直接在[Releases](https://github.com/niteshien/mltd-timestamp-extractor/releases)页面下载打包好的可执行文件，无需安装任何依赖，即可直接使用。
 
 ## 配置参数
 
-需要修改游戏名称、分辨率等参数的用户,请打开`config.json`文件,根据`config_description.txt`的说明配置参数。
+需要修改游戏名称、分辨率等参数的用户,请打开`config.json`文件，根据`config_description.txt`的说明配置参数。
 
 ## 开发说明
 
-如果您需要自行编译或修改源代码,请遵循以下步骤:
+如果您需要自行编译或修改源代码，请遵循以下步骤:
 
 1. 安装Python依赖
 ```
@@ -29,7 +29,7 @@ python gui.py
 
 4. 运行结束后，会在视频文件所在的路径生成仅包含时间轴信息的同名SRT字幕文件。
 
-## (可选)OCR 提取原字幕
+## (可选)OCR提取原字幕
 
 1. 下载并安装 [硬字幕提取工具10.0](https://zhuanlan.zhihu.com/p/559874793)。
 
