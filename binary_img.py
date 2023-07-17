@@ -89,6 +89,7 @@ def find_similar_image_groups(directory, ssim_threshold=0.8):
                     group.append(filename)
                 prev_image = im_array.copy()
 
+
     if group:
         start = int(re.findall(r'\d+', group[0])[0])
         end = int(re.findall(r'\d+', group[-1])[0])

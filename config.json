@@ -1,62 +1,55 @@
 {
-  "游戏名称": {
-    "interval" : "采样间隔，值越小结果越精确，但性能消耗也越大。如果是 MLTD@60fps, 推荐 interval<= 8。其他游戏可以适当增大。",
-    "grey" : "二值化转换阈值，默认128。如果某一像素的灰度值小于该值，则转换为黑色，反之转换为白色",
-    "mode": "游戏字幕是白底黑字还是黑底白字",
-    "录制分辨率": {
-      "width": "首字宽度",
-      "height": "首字高度",
-      "x_start": "将首字视为方形区域，区域左上角的坐标",
-      "y_start": "可以用Aegisub打开视频，按下快捷键(A)切换至标准模式，把鼠标移到画面上即可显示坐标。",
-	  "text_width": "字幕区域宽度",
-      "text_height": "字幕区域高度"
-    }
-  },
-  "MLTD": {
-    "interval" : 6,
-    "grey" : 128,
-    "mode": "white_glyph",
-    "2400*1080": {
-      "width": 42,
-      "height": 42,
-      "x_start": 638,
-      "y_start": 874,
-      "text_width": 1130,
-      "text_height": 110
-    },
-	  "1920*1080": {
-      "width": 42,
-      "height": 42,
-      "x_start": 400,
-      "y_start": 874,
-      "text_width": 1130,
-      "text_height": 110
-    }
-  },
-  "ShinyColors": {
-    "interval" : 6,
-    "grey" : 128,
-    "mode": "black_glyph",
-    "1920*1080": {
-      "width": 38,
-      "height": 42,
-      "x_start": 386,
-      "y_start": 886,
-      "text_width": 0,
-      "text_height": 0
-    }
-  },
-  "T7S": {
-    "interval" : 6,
-    "grey" : 128,
-    "mode": "black_glyph",
-    "2400*1080": {
-      "width": 50,
-      "height": 60,
-      "x_start": 554,
-      "y_start": 804,
-      "text_width": 1314,
-      "text_height": 204
-    }
-  }
+	"MLTD": {
+		"interval" : 6,
+		"grey" : 128,
+		"mode": "white_glyph",
+		"resolution":{
+			"2400*1080": {
+				"width": 42,
+				"height": 42,
+				"x_start": 638,
+				"y_start": 874,
+				"text_width": 1130,
+				"text_height": 110
+			},
+			"1920*1080": {
+				"width": 42,
+				"height": 42,
+				"x_start": 400,
+				"y_start": 874,
+				"text_width": 1130,
+				"text_height": 110
+			}
+		}
+	},
+	"ShinyColors": {
+		"interval" : 6,
+		"grey" : 128,
+		"mode": "black_glyph",
+		"resolution":{
+			"1920*1080": {
+				"width": 38,
+				"height": 42,
+				"x_start": 386,
+				"y_start": 886,
+				"text_width": 42,
+				"text_height": 42
+			}
+		}
+	},
+	"T7S": {
+		"interval" : 6,
+		"grey" : 128,
+		"mode": "black_glyph",
+		"resolution":{
+			"2400*1080": {
+				"width": 50,
+				"height": 60,
+				"x_start": 554,
+				"y_start": 804,
+				"text_width": 1314,
+				"text_height": 204
+			}
+		}
+	}
 }
